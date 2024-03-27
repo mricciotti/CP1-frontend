@@ -5,12 +5,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .cabecalho{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    font-size: 20px;
+    color: #FFF;
+    padding: 15px;
+    background-color: #800020;
+}
+.cabecalho nav{
+    color: #FFF;
+    text-decoration: none;
+    align-self: center;
+}
+.cabecalho ul{
+    padding: 0px, 10px;
+    display: flex;
+}
+.cabecalho li{
+    color: #FFF;
+    text-decoration: none;
+    align-self: center;
+    margin: 10px 5px;
+    padding: 5px;
+}
+
+.cabecalho a{
+    color: #FFF;
+    text-decoration: none;
+    align-self: center;
+}
+
+.rodape{
+    position: sticky;
+    padding: 20px 0px 20px 0px;
+    font-size: 20px;
+    background-color: #333333;
+    color:#FFF;
+    align-items: center;
+}
+.creditos {   
+    font-style: italic;
+    padding-bottom: 0px;
+    text-align: center;
+}
+    </style>
 </head>
 
 <body>
+    <header>
+        <nav class ='cabecalho'>
+            <ul>
+                <a href="src/pages/catalogo.html">CATALOGO</a>>
+                <a href="src/pages/vinhos.html">VINHO</a>>
+                <a href="src/pages/pagina4.html">PAGINA A MAIS</a>
+            </ul>
+        </nav>
+    
+    </header>
+
     <div>
-        <h1>vinhos</h1>
-        <h2> o mundo dos vinhos</h2>
+        <h1>Vinhos</h1>
+        <h2> O mundo dos vinhos</h2>
         <p>O mundo dos vinhos é bastante vasto e diverso, o que torna bastante difícil a tomada de decisão na hora da
             compra
             e da forma de consumo para a maioria do público consumidor.
@@ -41,7 +99,7 @@
         </p>
     </div>
     <div>
-        <h2>vinhos tintos</h2>
+        <h2>Vinhos tintos</h2>
         <p>O vinho tinto é um vinho tranquilo de cor vermelha e que possui níveis consideráveis de tanino. São
             elaborados necessariamente com castas tintas. É a principal variedade de vinho consumido no mundo, com
             grande gama de estilos e características. Podem variar de leve como os elaborados com Pinot Noir a
@@ -50,7 +108,7 @@
     </div>
 
     <div>
-        <h2>vinho Branco</h2>
+        <h2>Vinho Branco</h2>
         <p>As principais características do vinho branco são sua coloração dourada e o sabor com notas de frutas. Essas
             particularidades fazem com que ele seja bem recebido até mesmo por quem não tem o paladar aguçado para os
             diferentes tipos de vinhos.
@@ -87,7 +145,7 @@
         </p>
     </div>
     <div>
-        <h2>vinho tinto seco</h2>
+        <h2>Vinho tinto seco</h2>
         <p>Muitas pessoas ainda não sabem o que é vinho seco e acabam confundindo com o suave e o de mesa, por exemplo.
             De maneira simplificada, o vinho seco é aquele que tem menor teor de açúcar. Durante o processo de
             fermentação, as leveduras utilizadas consomem toda a glicose e transformam-na em álcool, deixam ele com
@@ -97,8 +155,11 @@
             litro. Esse processo resulta em uma bebida mais refrescante e muito consumida no verão, mas que, com a
             harmonização correta, vai muito bem no inverno e nas demais estações.</p>
     </div>
-
-
+    
+    <footer class="rodape">
+        <p class="creditos">&copy; Vinheria Agnello</p>
+    </footer>
+    
 
 
 </body>
