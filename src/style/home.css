@@ -3,12 +3,11 @@
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
-    font-size: 18px;
-    
+    font-size: 20px;
 }
 .home img{
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
 }
 .container{
     width: 95%;
@@ -30,7 +29,13 @@
     margin: 20px;
 }
 .texto{
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
     margin: 10px;
+}
+.texto p{
+    margin: 0px 10px 10px 0px ;
 }
 .containerConteudo a {  		
     text-decoration:none;
