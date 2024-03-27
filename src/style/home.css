@@ -1,0 +1,18 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.container{
+    color: #333333;
+    margin: 0px 0px 5px 0px;
+    padding: 10px;
+    background-color: #CEA2AC; 
+}
+
+.containerConteudo{
+    display: flex;
+    margin: 20px;
+    padding: 10px;
+}
