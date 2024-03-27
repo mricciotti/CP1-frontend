@@ -3,13 +3,44 @@
 <head>
 	<title>Catalogo</title>
 	<style>
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    font-size: 20px;
+    color: #FFF;
+    padding: 15px;
+    background-color: #800020;
+}
+.cabecalho nav{
+    color: #FFF;
+    text-decoration: none;
+    align-self: center;
+}
+.cabecalho ul{
+    padding: 0px, 10px;
+    display: flex;
+}
+.cabecalho li{
+    color: #FFF;
+    text-decoration: none;
+    align-self: center;
+    margin: 10px 5px;
+    padding: 5px;
+}
+
+.cabecalho a{
+    color: #FFF;
+    text-decoration: none;
+    align-self: center;
+}
 		body {
 			background-color: #e5e5e5;
 			font-family: 'Georgia', serif;
 		}
 
 		h1, h2 {
-			color: #6c63ff;
+			color: #000000;
 		}
 
 		.vinhos {
@@ -47,18 +78,23 @@
 			text-align: right;
 		}
              
-     footer {
-        background-color: rgba(41, 83, 221, 0.493);
-        color:rgb(255, 255, 255);
-        height: 50px;
-
-        }
+.rodape{
+    position: sticky;
+    padding: 20px 0px 20px 0px;
+    font-size: 20px;
+    background-color: #333333;
+    color:#FFF;
+    align-items: center;
+}
+.creditos {   
+    font-style: italic;
+    padding-bottom: 0px;
+    text-align: center;
+}
     
-     header {
-        background-color: rgba(41, 83, 221, 0.493);
-        color:rgb(255, 255, 255)
+
         
-     }
+
 
 	</style>
 <!DOCTYPE html>
@@ -71,10 +107,7 @@
 </head>
 <body>
 <header>
-    <address>
-        Vinheria Agnello - para saber mais acesse vinheria.agnello@email.com
-        </address>
-    <nav>
+    <nav class ='cabecalho'>
         <ul>
             <a href="src/pages/catalogo.html">CATALOGO</a>>
             <a href="src/pages/vinhos.html">VINHO</a>>
@@ -141,10 +174,8 @@
     </div>      
     <br>
     <br>
-<footer>
-    <address>
-         Vinheria Agnello - para saber mais acesse vinheria.agnello@email.com
-    </address>
-</footer>
+    <footer class="rodape">
+        <p class="creditos">&copy; Vinheria Agnello</p>
+    </footer>
 </body>
  </html>
