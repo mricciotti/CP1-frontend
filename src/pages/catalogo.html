@@ -1,9 +1,73 @@
 <!DOCTYPE html>
+<html>
+<head>
+	<title>Catalogo</title>
+	<style>
+		body {
+			background-color: #e5e5e5;
+			font-family: 'Georgia', serif;
+		}
+
+		h1, h2 {
+			color: #6c63ff;
+		}
+
+		.vinhos {
+			margin-bottom: 30px;
+		}
+
+		.vinhos h2 {
+			text-align: center;
+			margin-bottom: 20px;
+		}
+
+		.opcao {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			margin-bottom: 10px;
+			background-color: #fff;
+			padding: 10px;
+			border-radius: 5px;
+		}
+
+		.opcao:hover {
+			background-color: #f5f5f5;
+		}
+
+		.nome {
+			flex-basis: 70%;
+			font-size: 18px;
+		}
+
+		.preco {
+			flex-basis: 30%;
+			font-size: 18px;
+			font-weight: bold;
+			text-align: right;
+		}
+             
+     footer {
+        background-color: rgba(41, 83, 221, 0.493);
+        color:rgb(255, 255, 255);
+        height: 50px;
+
+        }
+    
+     header {
+        background-color: rgba(41, 83, 221, 0.493);
+        color:rgb(255, 255, 255)
+        
+     }
+
+	</style>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Catálogo dos vinhos</title>
+
 </head>
 <body>
 <header>
@@ -19,75 +83,68 @@
     </nav>
 
 </header>
-<div class="cabeca">  
-    <h3>CATÁLOGO DE VINHOS</h3>
-    <p>Dentre as variadas opções dos melhores vinhos, temos os melhores enólogos e os melhores sommelier
-        para avaliar e recomendar o melhor vinho para a sua ocasião perfeita. </p>
-</div>
-        <p>VINHOS BRANCOS: </p>
-    <p>-Os vinhos brancos são vinhos que combinam melhor com queijos, frutos do mar e pratos leves. São também a bebida ideal 
-        recomendados também para os dias quentes. Os rótulos mais leves e delicados podem ser servidos como aperitivo 
-       ou acompanhando pratos de sabor mais suave.
-    </p>
-    <ol>Carta de vinhos brancos:</ol>
-    <li>Vinho Chileno Casillero Del Diablo Sauvignon Blanc</li>
-    <li>Vinho Argentino Trivento White Malbec 2021</li>
-    <li>Vinho Casillero Del Diablo Pedro Jimenez</li>
-    <li>Vinho Santa Carolina Reservado Chardonnay</li>
+
+	<div class="vinhos">
+		<h2>Vinho Tinto</h2>
+		<div class="opcao">
+			<div class="nome">Vinho Catena Cabernet Sauvignon</div>
+			<div class="preco">R$ 70,00</div>
+		</div>
+		<div class="opcao">
+			<div class="nome">Vinho Carmen Insigne Carmenere</div>
+			<div class="preco">R$ 60,00</div>
+		</div>
+		<div class="opcao">
+			<div class="nome">Vinho Gran Sasso Montepulciano DAbruzzo</div>
+			<div class="preco">R$ 65,00</div>
+		</div>
+		<div class="opcao">
+			<div class="nome">Vinho Tinto Castello Di Montepò Sassoalloro IGT</div>
+			<div class="preco">R$ 75,00</div>
+		</div>
+	</div>
+	<div class="vinhos">
+		<h2>Vinho Branco</h2>
+		<div class="opcao">
+			<div class="nome">Vinho Chileno Casillero Del Diablo Sauvignon Blanc</div>
+			<div class="preco">R$ 50,00</div>
+		</div>
+		<div class="opcao">
+			<div class="nome">Vinho Argentino Trivento White Malbec 2021</div>
+			<div class="preco">R$ 55,00</div>
+		</div>
+		<div class="opcao">
+			<div class="nome">Vinho Casillero Del Diablo Pedro Jimenez</div>
+			<div class="preco">R$ 45,00</div>
+		</div>
+		<div class="opcao">
+			<div class="nome">Vinho Santa Carolina Reservado Chardonnay</div>
+            <div class="preco">R$ 55,00</div>
+    </div>      
+    <div class="vinhos">
+		<h2>Vinho Seco</h2>
+		<div class="opcao">
+			<div class="nome">Vinho Picarón Carmenere</div>
+			<div class="preco">R$ 50,00</div>
+		</div>
+		<div class="opcao">
+			<div class="nome">Vinho Chileno Reservado Sweet Red</div>
+			<div class="preco">R$ 55,00</div>
+		</div>
+		<div class="opcao">
+			<div class="nome">Vinho Chileno Seco Reserva Especial 120 Carménère</div>
+			<div class="preco">R$ 45,00</div>
+		</div>
+		<div class="opcao">
+			<div class="nome">Vinho Chileno Seco Reserva 9 Lives Gato Negro Carménère</div>
+            <div class="preco">R$ 55,00</div>
+    </div>      
     <br>
-    <p>VINHOS TINTOS:</p>
-     <p>- Os vinhos tintos são os ideais para acompanhar pratos mais pesados, como carnes vermelhas ou com molhos.</p>
-     <ol>Carta de vinhos tintos:</ol>
-     <li>Vinho Catena Cabernet Sauvignon</li>
-     <li>Vinho Carmen Insigne Carmenere</li>
-     <li>Vinho Gran Sasso Montepulciano DAbruzzo</li>
-     <li>Vinho Tinto Castello Di Montepò Sassoalloro IGT</li>
-     <br>
-     <p>VINHOS SECOS:</p>
-     <p>-Por sua vez, os vinhos secos são recomendados consumir em dias quentes. Ele é uma bebida mais refrescante</p>
-     <ol>Carta de vinhos secos:</ol>
-     <li>Vinho Picarón Carmenere</li>
-     <li>Vinho Chileno Reservado Sweet Red</li>
-     <li>Vinho Chileno Seco Reserva Especial 120 Carménère</li>
-     <li>Vinho Chileno Seco Reserva 9 Lives Gato Negro Carménère </li>
-     <br>
-     <br>
-     <footer>
-        <address>
-            Vinheria Agnello - para saber mais acesse vinheria.agnello@email.com
-        </address>
-     </footer>
+    <br>
+<footer>
+    <address>
+         Vinheria Agnello - para saber mais acesse vinheria.agnello@email.com
+    </address>
+</footer>
 </body>
-</html>
-<style>
-    body  {
-        background-image: url(../img/vinho2.jpg);  
-        
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        color:rgb(0, 0, 0)
-     }
- 
-        
-     
-     footer {
-        background-color: black;
-        color:rgb(255, 255, 255);
-        height: 50px;
-        
-     }
-     header {
-        background-color: black;
-        color:rgb(255, 255, 255)
-        
-     }
-     ol {
-        background-color: beige;
-     }
-     li {
-        background-color: rgba(228, 143, 46, 0.5);
-        width: 500px;
-        height: 50px;
-     }
-</style>
+ </html>
