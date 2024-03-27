@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Catalogo</title>
+	<style>
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    font-size: 20px;
+    color: #FFF;
+    padding: 15px;
+    background-color: #800020;
+}
+.cabecalho nav{
+    color: #FFF;
+    text-decoration: none;
+    align-self: center;
+}
+.cabecalho ul{
+    padding: 0px, 10px;
+    display: flex;
+}
+.cabecalho li{
+    color: #FFF;
+    text-decoration: none;
+    align-self: center;
+    margin: 10px 5px;
+    padding: 5px;
+}
+
+.cabecalho a{
+    color: #FFF;
+    text-decoration: none;
+    align-self: center;
+}
+		body {
+			background-color: #e5e5e5;
+			font-family: 'Georgia', serif;
+		}
+
+		h1, h2 {
+			color: #000000;
+		}
+
+		.vinhos {
+			margin-bottom: 30px;
+		}
+
+		.vinhos h2 {
+			text-align: center;
+			margin-bottom: 20px;
+		}
+
+		.opcao {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			margin-bottom: 10px;
+			background-color: #fff;
+			padding: 10px;
+			border-radius: 5px;
+		}
+
+		.opcao:hover {
+			background-color: #f5f5f5;
+		}
+
+		.nome {
+			flex-basis: 70%;
+			font-size: 18px;
+		}
+
+		.preco {
+			flex-basis: 30%;
+			font-size: 18px;
+			font-weight: bold;
+			text-align: right;
+		}
+             
+.rodape{
+    position: sticky;
+    padding: 20px 0px 20px 0px;
+    font-size: 20px;
+    background-color: #333333;
+    color:#FFF;
+    align-items: center;
+}
+.creditos {   
+    font-style: italic;
+    padding-bottom: 0px;
+    text-align: center;
+}
+    
+
+        
+
+
+	</style>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo dos vinhos</title>
+
+</head>
+<body>
+<header>
+    <nav class ='cabecalho'>
+        <ul>
+            <a href="src/pages/catalogo.html">CATALOGO</a>>
+            <a href="src/pages/vinhos.html">VINHO</a>>
+            <a href="src/pages/pagina4.html">PAGINA A MAIS</a>
+        </ul>
+    </nav>
+
+</header>
+
+	<div class="vinhos">
+		<h2>Vinho Tinto</h2>
+		<div class="opcao">
+			<div class="nome">Vinho Catena Cabernet Sauvignon</div>
+			<div class="preco">R$ 70,00</div>
+		</div>
+		<div class="opcao">
+			<div class="nome">Vinho Carmen Insigne Carmenere</div>
+			<div class="preco">R$ 60,00</div>
+		</div>
+		<div class="opcao">
+			<div class="nome">Vinho Gran Sasso Montepulciano DAbruzzo</div>
+			<div class="preco">R$ 65,00</div>
+		</div>
+		<div class="opcao">
+			<div class="nome">Vinho Tinto Castello Di Montepò Sassoalloro IGT</div>
+			<div class="preco">R$ 75,00</div>
+		</div>
+	</div>
+	<div class="vinhos">
+		<h2>Vinho Branco</h2>
+		<div class="opcao">
+			<div class="nome">Vinho Chileno Casillero Del Diablo Sauvignon Blanc</div>
+			<div class="preco">R$ 50,00</div>
+		</div>
+		<div class="opcao">
+			<div class="nome">Vinho Argentino Trivento White Malbec 2021</div>
+			<div class="preco">R$ 55,00</div>
+		</div>
+		<div class="opcao">
+			<div class="nome">Vinho Casillero Del Diablo Pedro Jimenez</div>
+			<div class="preco">R$ 45,00</div>
+		</div>
+		<div class="opcao">
+			<div class="nome">Vinho Santa Carolina Reservado Chardonnay</div>
+            <div class="preco">R$ 55,00</div>
+    </div>      
+    <div class="vinhos">
+		<h2>Vinho Seco</h2>
+		<div class="opcao">
+			<div class="nome">Vinho Picarón Carmenere</div>
+			<div class="preco">R$ 50,00</div>
+		</div>
+		<div class="opcao">
+			<div class="nome">Vinho Chileno Reservado Sweet Red</div>
+			<div class="preco">R$ 55,00</div>
+		</div>
+		<div class="opcao">
+			<div class="nome">Vinho Chileno Seco Reserva Especial 120 Carménère</div>
+			<div class="preco">R$ 45,00</div>
+		</div>
+		<div class="opcao">
+			<div class="nome">Vinho Chileno Seco Reserva 9 Lives Gato Negro Carménère</div>
+            <div class="preco">R$ 55,00</div>
+    </div>      
+    <br>
+    <br>
+    <footer class="rodape">
+        <p class="creditos">&copy; Vinheria Agnello</p>
+    </footer>
+</body>
+ </html>
