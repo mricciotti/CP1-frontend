@@ -5,9 +5,10 @@
 }
 
 .container{
-    margin: 20px;
+    color: #333333;
+    margin: 0px 0px 5px 0px;
     padding: 10px;
-    background-color: blanchedalmond; 
+    background-color: #CEA2AC; 
 }
 
 .containerConteudo{
