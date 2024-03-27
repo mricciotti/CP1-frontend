@@ -31,9 +31,12 @@
     align-self: center;
 }
 
+
+
+
 .rodape{
-    position: sticky;
     margin-top: 10px;
+    position: sticky;
     padding: 20px 0px 20px 0px;
     font-size: 20px;
     background-color: #333333;
@@ -44,11 +47,4 @@
     font-style: italic;
     padding-bottom: 0px;
     text-align: center;
-
-}
-
-.texto{
-    text-align: center;
-    font-size: 20px;
-    color: #5E5749 ;
 }
